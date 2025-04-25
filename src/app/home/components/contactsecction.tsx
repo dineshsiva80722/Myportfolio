@@ -16,7 +16,7 @@ export default function SignupFormDemo() {
     };
     return (
         <div className="shadow-input mx-auto w-full max-w-md rounded-none bg-transparent p-4 md:rounded-2xl md:p-8">
-            <p className="text-2xl md:text-4xl font-bold mb-4 text-white underline">Let's Connect</p>
+            <p className="text-2xl md:text-4xl font-bold mb-4 text-white underline">Let&apos;s Connect</p>
 
             <form className="my-8 z-50" onSubmit={handleSubmit}>
                 <div className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">

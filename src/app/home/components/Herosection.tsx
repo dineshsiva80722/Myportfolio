@@ -10,7 +10,6 @@ const Herosection = () => {
     return (
         <>
             <section className='relative xl:container mx-auto'>
-
                 <div>
                     <LetterGlitch
                         glitchColors={["#2b4539", "#61dca3", "#61b3dc"]}
@@ -26,7 +25,7 @@ const Herosection = () => {
                             </div>
                         </div>
                         <div className='w-1/2' style={{ position: 'relative', height: '300px' }}>
-                            <h1 className='text-2xl text-white '>Hi, I'm </h1>
+                            <h1 className='text-2xl text-white '>Hi, I&apos;m </h1>
                             <div className='' style={{ display: 'flex', flexDirection: 'column', alignItems: 'start', gap: '0.5em' }}>
                                 <h1 className='text-9xl text-white font-bold'>Dinesh</h1>
 
@@ -43,7 +42,6 @@ const Herosection = () => {
                                     strokeColor="#ff00c3"
                                     minFontSize={40}
                                 />
-
                             </div>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ function autoBind(instance: unknown): void {
   const proto = Object.getPrototypeOf(instance);
   Object.getOwnPropertyNames(proto).forEach((key) => {
     if (key !== "constructor" && typeof obj[key] === "function") {
-      obj[key] = (obj[key] as Function).bind(instance);
+      obj[key] = (obj[key] as (...args: unknown[]) => unknown).bind(instance);
     }
   });
 }
