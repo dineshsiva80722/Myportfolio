@@ -104,7 +104,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onViewWorkClick }) => {
 
         {/* Description with staggered animation */}
         <p className="text-white/80 max-w-2xl text-center mb-10 font-outfit leading-relaxed animate-appear" style={{ animationDelay: '1.2s' }}>
-          I love creating websites and digital products from scratch in code. Turning creative designs into real, interactive experiences makes me feel truly awesome—there’s nothing like seeing an idea come to life on the web!
+          I love creating websites and digital products from scratch in code. Turning creative designs into real, interactive experiences makes me feel truly awesome—there&apos;s nothing like seeing an idea come to life on the web!
         </p>
 
         {/* CTA Buttons with staggered animation */}

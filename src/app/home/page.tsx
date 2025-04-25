@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import Herosection from '@/app/Herosection/Herosection';
 // import Nav from './components/Nav';
 import Aboutsection from './components/aboutsection';
-import Projects from './components/projects';
+// import Projects from './components/projects';
 import Contactsection from './components/contactsecction';
 import CircularGallery from '@/components/CircularGallery/CircularGallery';
 // Simple mobile detection

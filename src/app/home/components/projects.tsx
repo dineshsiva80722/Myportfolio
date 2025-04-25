@@ -5,7 +5,7 @@ import HeroBackground from '@/app/Herosection/components/HeroBackround';
 import Image from "next/image";
 import gsap from "gsap";
 
-const projects = () => {
+const Projects = () => {
     const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
     const [hasMounted, setHasMounted] = useState(false);
 
@@ -129,4 +129,4 @@ const projects = () => {
 }
 
 
-export default projects
+export default Projects

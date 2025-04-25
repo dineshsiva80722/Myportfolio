@@ -63,7 +63,7 @@ const RotatingCube = () => {
       
       // Project 3D points to 2D
       const projectedPoints = rotatedPoints.map(point => {
-        const scale = 1.5; // Perspective scale
+        // const scale = 1.5; // Perspective scale
         return {
           x: centerX + point.x,
           y: centerY + point.y,

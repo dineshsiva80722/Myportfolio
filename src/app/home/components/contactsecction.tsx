@@ -8,7 +8,7 @@ import {
     IconBrandGoogle,
     IconBrandOnlyfans,
 } from "@tabler/icons-react";
-import HeroBackground from "@/app/Herosection/components/HeroBackround";
+// import HeroBackground from "@/app/Herosection/components/HeroBackround";
 export default function SignupFormDemo() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
